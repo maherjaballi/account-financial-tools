@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.base.setup</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="100"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" id="tools">
+                    <h2>Account Financial Tools</h2>
+                     
+                        <div class="row mt16 o_settings_container">                         
+                            <div class="col-12 col-lg-3 o_setting_box">
+                              <div class="col-12 o_setting_box">  
+                              <div class="o_setting_left_pane">
+                                <field name="module_account_asset_management" class="oe_inline" />
+                              </div>
+                              <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_asset_management"/> 
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                              </div>                            
+                            </div>
+                            <div class="col-12 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_balance_line" class="oe_inline" />
+                                </div>
+                                <div class="o_setting_right_pane">
+                                    <label for="module_account_balance_line" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="col-12 o_setting_box">                             
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_chart_update" class="oe_inline" />
+                                </div>                                                                 
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_chart_update" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="col-12 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_check_deposit" class="oe_inline" />
+                                </div>                             
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_check_deposit" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="col-12 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                     <field name="module_account_coa_menu" class="oe_inline" />
+                                </div>
+                                <div class="o_setting_right_pane">                                   
+                                    <label for="module_account_coa_menu" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>
+                            </div>
+
+                            <div class="col-12 o_setting_box">  
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_document_reversal" class="oe_inline" />
+                                </div>                            
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_document_reversal" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div> 
+                            </div>
+                            <div class="col-12 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_fiscal_month" class="oe_inline" />
+                                </div>                              
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_fiscal_month" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 o_setting_box">
+                                <div class="col-12 o_setting_box">                           
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_fiscal_position_vat_check" class="oe_inline" />
+                                </div>
+                               
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_fiscal_position_vat_check" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div> 
+                                </div>                        
+                                <div class="col-12 o_setting_box">    
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_fiscal_year" class="oe_inline" />
+                                </div>                               
+                                 <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_fiscal_year" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div> 
+                                </div> 
+                                <div class="col-12 o_setting_box">                         
+                                <div class="o_setting_left_pane">
+                                     <field name="module_account_group_menu" class="oe_inline" />
+                                </div>
+                                <div class="o_setting_right_pane">                                   
+                                    <label for="module_account_group_menu" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div> 
+                                </div>   
+                                <div class="col-12 o_setting_box">                     
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_invoice_constraint_chronology" class="oe_inline" />
+                                </div>
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_invoice_constraint_chronology" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>
+                                </div>
+                                <div class="col-12 o_setting_box">
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_invoice_currency" class="oe_inline" />
+                                </div>                           
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_invoice_currency" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>  
+                                </div>
+                                <div class="col-12 o_setting_box">                          
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_lock_date_update" class="oe_inline" />
+                                </div>    
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_lock_date_update" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>  
+                                </div>
+                                <div class="col-12 o_setting_box">                          
+                                <div class="o_setting_left_pane">
+                                    <field name="module_account_menu" class="oe_inline" />
+                                </div>                                
+                                <div class="o_setting_right_pane">                                    
+                                    <label for="module_account_menu" />
+                                    <div class="text-muted">
+                                         Install / Unistall Module 
+                                    </div>                               
+                                </div>
+                                </div>                           
+                                
+                             </div> 
+                             
+                                <div class="col-12 col-lg-3 o_setting_box">
+
+                                <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_move_budget" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_move_budget" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>
+
+                                 <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_move_fiscal_year" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_move_fiscal_year" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>   
+
+                                <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_move_line_purchase_info" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_move_line_purchase_info" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>  
+
+                                <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_move_line_tax_editable" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_move_line_tax_editable" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>  
+
+                                 <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_netting" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_netting" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>  
+
+                                 <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_partner_required" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_partner_required" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3 o_setting_box">
+
+                                 <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_renumber" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_renumber" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>
+
+                                 <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_spread_cost_revenue" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_spread_cost_revenue" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>
+
+                                 <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_tag_menu" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_tag_menu" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>
+
+                                 <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_account_type_menu" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_account_type_menu" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>
+
+                                <div class="col-12 o_setting_box">                          
+                                    <div class="o_setting_left_pane">
+                                        <field name="module_base_vat_optional_vies" class="oe_inline" />
+                                    </div>                                
+                                    <div class="o_setting_right_pane">                                    
+                                        <label for="module_base_vat_optional_vies" />
+                                        <div class="text-muted">
+                                             Install / Unistall Module 
+                                        </div>                               
+                                    </div>
+                                </div>
+                              </div>   
+
+                           </div> 
+                                                 
+                   </div>                  
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
+
+
+                
